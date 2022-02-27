@@ -81,10 +81,10 @@ function pickColor(){
   return colors[random];
 }
 
-function generateRandomColors(num){
+function generateRandomColors(tot){
   var arr = [];
 
-  for(var i = 0; i < num; i++){
+  for(var i = 0; i < tot; i++){
     arr.push(randomColor());
   }
   return arr;
